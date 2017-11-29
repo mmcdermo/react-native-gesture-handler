@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name          = "react-native-gesture-handler"
   s.version       = "0.8.0"
-  s.source_files  = "ios/*.{h,m}"
+  s.source_files  = "ios/*.{h,m}", "ios/Handlers/*.{h,m}"
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.authors       = { "kmagiera" => "kmagiera@github.com" }
